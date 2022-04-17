@@ -20,7 +20,11 @@ function PunkCardCollection({ setMainPunk }) {
       <div className={styles.PunkCardCollectionWrapper}>
         <div className={styles.PunkCards}>
           {punks.map((punk) => (
-            <PunkCard punk={punk} setMainPunk={setMainPunk}></PunkCard>
+            <PunkCard
+              key={punk.token_id}
+              punk={punk}
+              setMainPunk={setMainPunk}
+            ></PunkCard>
           ))}
         </div>
       </div>
