@@ -1,0 +1,53 @@
+.PunkCard {
+  /* height: 300px; */
+  background-color: #1c1c1e;
+  min-width: 290px;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.PunkCardImage {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.InfoSection {
+  background-color: #1c1c1e;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  height: 25vh;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.PunkCard img {
+  margin: 0;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.number {
+  font-size: 20px;
+  color: #a1a5b0;
+}
+
+.weth {
+  width: 20px;
+  /* height: 32px; */
+}
+
+.wethAndPrice {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  margin-left: 5px;
+}

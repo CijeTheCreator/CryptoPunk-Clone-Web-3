@@ -1,0 +1,28 @@
+.PunkCardCollection {
+  /* padding: 20px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* display: flex; */
+  overflow: scroll;
+  /* width: 95%; */
+  /* margin: 0% 2.5%; */
+}
+
+.PunkCardCollection::-webkit-scrollbar {
+  display: none;
+}
+
+.PunkCardCollectionWrapper {
+  border-bottom: solid 1px white;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.PunkCards {
+  overflow: scroll;
+  display: flex;
+}
+
+.PunkCards::-webkit-scrollbar {
+  display: none;
+}

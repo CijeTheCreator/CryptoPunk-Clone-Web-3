@@ -1,0 +1,76 @@
+.Main {
+  padding: 20px;
+  /* border-bottom: solid 1px white; */
+  height: 50vh;
+
+  /* background-color: aliceblue; */
+}
+
+.mainWrapper {
+  height: 100%;
+  border-bottom: solid 1px white;
+  display: flex;
+}
+
+.imageContainer {
+  height: 100%;
+}
+
+.activePunkImage {
+  height: 90%;
+  border-radius: 20px;
+}
+
+.ownerImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.activePunkOwner {
+  display: flex;
+  align-items: center;
+}
+
+.activePunkName {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.activePunkNumber {
+  font-size: 70px;
+  color: #a1a5b0;
+}
+
+.activePunkDetails {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.activePunkDetailsBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.socialLinks {
+  display: flex;
+}
+
+.socialLinks div {
+  padding: 10px;
+  /* background-color: #1c1c1e; */
+  border: solid 1px white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.socialLinks div img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
